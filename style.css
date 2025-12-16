@@ -1,19 +1,18 @@
-<!----- #ID , .CLASS--->
+<!----- #ID , .CLASS, *ALL--->
 
 
-#hello {
-    color: rgb(0,238,255);
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #533f17;
+  font-family: Roboto, sans-serif;
 }
 
 
     
 .world {
     font-size: 1000%;
-}
-
-body{
-
 }
 
 .logo{
@@ -57,20 +56,15 @@ body{
 }
 
 /* Resize carousel images and preserve aspect with cover */
-      #carouselExampleSlidesOnly .carousel-inner img{
-        width: clamp(220px, 36vh, 520px);
+      #carouselExampleSlidesOnly .carousel-inner img
+      {
+        width: 100%;
         height: auto; /* responsive height */
         object-fit: cover;
         display: block;
         margin: 0 auto;
       }
 
-      /* Optional: keep some spacing below fixed navbar */
-      body 
-      {
-        padding-top: 72px;
-        padding-left: 20px; 
-        padding-right: 20px;
-        font-family: Roboto, sans-serif;
-        background: #fffcf6;
-    }
+#carouselExampleSlidesOnly {
+    margin-top: 56px; /* height of navbar */
+}
