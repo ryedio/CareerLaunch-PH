@@ -16,20 +16,6 @@
 
 }
 
-.button{
-    background-color: #3c6ca8;
-    border: none;
-    font: Roboto, sans-serif;
-    color: fffcf6;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 12px;
-}
 
 .section-title {
       font-size: 20px;
@@ -37,20 +23,14 @@
       color: #b78fd6;
     }
 
-.featurette-image {
-  max-width: 700px;
-  max-height: 500px;
-  object-fit: cover;
-}
 
-.featurette-heading {
-    color: #b78fd6;
-}
 
 .secondary-text {
     color: #6c757d;
 }
 
+
+/* ------ START OF HOMEPAGE -------- */
 /* Resize carousel images and preserve aspect with cover */
       #carouselExampleSlidesOnly .carousel-inner img
       {
@@ -65,8 +45,37 @@
     margin-top: 56px; /* height of navbar */
 }
 
+/* ------ featurette -------- */
+.featurette-image {
+  max-width: 700px;
+  max-height: 500px;
+  object-fit: cover;
+}
 
-/* -------------ABOUT PAGE START--------------- */
+.featurette-heading {
+    color: #b78fd6;
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+}
+
+.lead {
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    text-align: justify;
+    color: #333;
+    line-height: 1.6;
+    margin-top: 15px;
+}
+
+.text-body-secondary {
+    color: #6c757d;
+    font-size: 15px;
+    font-style: italic;
+}
+
+/* ------------- END OF HOMEPAGE -------- */
+
+/* ---------------ABOUT PAGE START--------------- */
 .aboutNITP {
     display: flex;
     align-items: center;
