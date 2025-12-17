@@ -16,20 +16,6 @@
 
 }
 
-.button{
-    background-color: #3c6ca8;
-    border: none;
-    font: Roboto, sans-serif;
-    color: fffcf6;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 12px;
-}
 
 .section-title {
       font-size: 20px;
@@ -37,20 +23,39 @@
       color: #b78fd6;
     }
 
-.featurette-image {
-  max-width: 700px;
-  max-height: 500px;
-  object-fit: cover;
-}
 
-.featurette-heading {
-    color: #b78fd6;
-}
 
 .secondary-text {
     color: #6c757d;
 }
 
+
+/* SCROLL TO TOP BUTTON STYLES */
+#go-to-top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    /* font-size: 16px; */
+    background-color: #3c6ca8;
+    color: white;
+    opacity: 0.5;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 5px 2px 4px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s linear;
+}
+#go-to-top-button:hover {
+    opacity: 1.0;
+}
+#go-to-top-button.hidden {
+    display: none;
+}
+/* END OF SCROLL TO TOP BUTTON STYLES */
+
+
+/* ------ START OF HOMEPAGE -------- */
 /* Resize carousel images and preserve aspect with cover */
       #carouselExampleSlidesOnly .carousel-inner img
       {
@@ -65,8 +70,53 @@
     margin-top: 56px; /* height of navbar */
 }
 
+/* ------ featurette -------- */
+.featurette-image {
+  max-width: 700px;
+  max-height: 500px;
+  object-fit: cover;
+}
 
-/* -------------ABOUT PAGE START--------------- */
+.featurette-heading {
+    color: #b78fd6;
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+}
+
+.lead {
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    text-align: justify;
+    color: #333;
+    line-height: 1.6;
+    margin-top: 15px;
+}
+
+.text-body-secondary {
+    color: #6c757d;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.justified-indent {
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    text-align: justify;
+    text-indent: 50px;
+    color: #333;
+    line-height: 1.6;
+    margin-top: 15px;
+}
+
+.highlight-heading {
+    color: #3c6ca8;
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+}
+
+/* ------------- END OF HOMEPAGE -------- */
+
+/* ---------------ABOUT PAGE START--------------- */
 .aboutNITP {
     display: flex;
     align-items: center;
