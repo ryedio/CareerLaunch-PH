@@ -1,168 +1,360 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>CareerLaunch PH</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
-    </head>
-<body>
-<!----------------- NAVIGATION BAR ------------------------------->
-      <header data-bs-theme="light">
-        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img src="media assets/CLP no bg.png" width="50" height="50"></a>
-                <button
-                 class="navbar-toggler"
-                 type="button"
-                 data-bs-toggle="collapse"
-                 data-bs-target="#navbarCollapse"
-                 aria-controls="navbarCollapse"
-                 aria-expanded="false"
-                 aria-label="Toggle navigation">
-                 <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="homepage.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="aboutPage.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="learnerPage.html">Learners</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="contactPage.html">Contacts</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CareerLaunch PH</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!----------------- NAVIGATION BAR ------------------------------->
+    <header data-bs-theme="light">
+      <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"
+            ><img src="media assets/CLP no bg.png" width="50" height="50"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="homepage.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="aboutPage.html"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="learnerPage.html"
+                  >Learners</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="contactPage.html"
+                  >Contacts</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
-<!-------------------------- CAROUSEL -------------------------->
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="media assets/1.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="media assets/2.jpg" class="d-block w-100" alt="...">
-    </div>
-    <!-- <div class="carousel-item">
+    <!-------------------------- CAROUSEL -------------------------->
+    <div
+      id="carouselExampleSlidesOnly"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="media assets/1.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="media assets/2.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <!-- <div class="carousel-item">
       <img src="media assets/3.jpg" class="d-block w-100" alt="...">
     </div> -->
-  </div>
-</div>
-
-<!-- ----------------------ABOUT SECTION-------------- -->
- <!-- ----------------------ABOUT NITP-------------------- -->
-<div class="container aboutNITP row mx-auto"> 
-    <h1 class="container text-center mt-4 mb-2">About NITP</h1> 
-   <div class="container col-md-12">
-    <img src="media assets/first-face-to-face.jpg" alt="First face-to-face meeting">
-</div>
-
-<div class="container col-md-12 my-3">
-    <p>CareerLaunch PH is an initiative dedicated to empowering individuals in the Philippines by providing them with the necessary skills, resources, and support to successfully launch and advance their careers. Our mission is to bridge the gap between education and employment, ensuring that every learner has access to quality career development opportunities.</p>
-
-    <p>We offer a variety of programs including vocational training, career counseling, job placement services, and workshops on resume writing, interview skills, and professional networking. Our team of experienced educators and industry professionals work closely with learners to tailor programs that meet their unique needs and aspirations.</p>
-
-    <p>At CareerLaunch PH, we believe that everyone deserves the chance to achieve their career goals. We are committed to fostering a supportive community where learners can thrive and reach their full potential. Join us on this journey to unlock your career possibilities and take the first step towards a brighter future.</p>
-</div> 
-</div>
-
- <!-- ----------------------ABOUT ACN-------------------- -->
-<div class="container aboutNITP row mx-auto"> 
-    <h1 class="container text-center mt-4 mb-2">About ACN</h1> 
-   <div class="container col-md-12">
-    <img src="media assets/first-face-to-face.jpg" alt="First face-to-face meeting">
-</div>
-
-<div class="container col-md-12 my-3">
-    <p>CareerLaunch PH is an initiative dedicated to empowering individuals in the Philippines by providing them with the necessary skills, resources, and support to successfully launch and advance their careers. Our mission is to bridge the gap between education and employment, ensuring that every learner has access to quality career development opportunities.</p>
-
-    <p>We offer a variety of programs including vocational training, career counseling, job placement services, and workshops on resume writing, interview skills, and professional networking. Our team of experienced educators and industry professionals work closely with learners to tailor programs that meet their unique needs and aspirations.</p>
-
-    <p>At CareerLaunch PH, we believe that everyone deserves the chance to achieve their career goals. We are committed to fostering a supportive community where learners can thrive and reach their full potential. Join us on this journey to unlock your career possibilities and take the first step towards a brighter future.</p>
-</div> 
-</div>
-
- <!-- ----------------------ABOUT YMCA-------------------- -->
-<div class="container aboutNITP row mx-auto"> 
-    <h1 class="container text-center mt-4 mb-2">About YMCA</h1> 
-   <div class="container col-md-12">
-    <img src="media assets/first-face-to-face.jpg" alt="First face-to-face meeting">
-</div>
-
-<div class="container col-md-12 my-3">
-    <p>CareerLaunch PH is an initiative dedicated to empowering individuals in the Philippines by providing them with the necessary skills, resources, and support to successfully launch and advance their careers. Our mission is to bridge the gap between education and employment, ensuring that every learner has access to quality career development opportunities.</p>
-
-    <p>We offer a variety of programs including vocational training, career counseling, job placement services, and workshops on resume writing, interview skills, and professional networking. Our team of experienced educators and industry professionals work closely with learners to tailor programs that meet their unique needs and aspirations.</p>
-
-    <p>At CareerLaunch PH, we believe that everyone deserves the chance to achieve their career goals. We are committed to fostering a supportive community where learners can thrive and reach their full potential. Join us on this journey to unlock your career possibilities and take the first step towards a brighter future.</p>
-</div> 
-</div>
-
- <!-- ----------------------ABOUT PBSP-------------------- -->
-<div class="container aboutNITP row mx-auto"> 
-    <h1 class="container text-center mt-4 mb-2">About PBSP</h1> 
-   <div class="container col-md-12">
-    <img src="media assets/first-face-to-face.jpg" alt="First face-to-face meeting">
-</div>
-
-<div class="container col-md-12 my-3">
-    <p>CareerLaunch PH is an initiative dedicated to empowering individuals in the Philippines by providing them with the necessary skills, resources, and support to successfully launch and advance their careers. Our mission is to bridge the gap between education and employment, ensuring that every learner has access to quality career development opportunities.</p>
-
-    <p>We offer a variety of programs including vocational training, career counseling, job placement services, and workshops on resume writing, interview skills, and professional networking. Our team of experienced educators and industry professionals work closely with learners to tailor programs that meet their unique needs and aspirations.</p>
-
-    <p>At CareerLaunch PH, we believe that everyone deserves the chance to achieve their career goals. We are committed to fostering a supportive community where learners can thrive and reach their full potential. Join us on this journey to unlock your career possibilities and take the first step towards a brighter future.</p>
-</div> 
-</div>
-
-<!------- SCROLL TO TOP BUTTON --------->
-<button id="go-to-top-button" class="btn hidden">Go to Top</button>
-
-<!---------------- FOOTER ----------------->
-  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mx-5 my-4  border-top">
-    <div class="col-md-4 d-flex align-items-center">
-      <a
-        href="/"
-        class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
-        aria-label="Bootstrap"
-      >
-      <img src="media assets/CLP no bg.png" alt="CareerLaunch PH logo" width="50" height="50">
-      </a>
-      <span class="mb-3 mb-md-0 text-body-secondary">
-        &copy; 2025 CareerLaunch PH
-        </span>
+      </div>
     </div>
-    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-      <li class="ms-3">
-        <a class="text-body-secondary" href="#" aria-label="Instagram">
-          <svg class="bi" width="30" height="30" aria-hidden="true">
-            <use xlink:href="#instagram"></use>
-          </svg>
-        </a>
-      </li>
-      <li class="ms-3">
-        <a class="text-body-secondary" href="#" aria-label="Facebook">
-          <svg class="bi" width="24" height="24">
-            <use xlink:href="#facebook"></use>
-          </svg>
-        </a>
-      </li>
-    </ul>
-  </footer>
 
-<!----------- SCRIPTS ------------->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-<script src="index.js"></script>
-<script src="scrollToTop.js"></script>
-    
-</body>
+    <!-- ----------------------ABOUT SECTION-------------- -->
+    <!-- ----------------------ABOUT NITP-------------------- -->
+    <div class="container aboutNITP row mx-auto">
+      <h1 class="container text-center mb-2">About NITP</h1>
+      <div class="container col-md-12">
+        <img src="media assets/nitp.jpg" alt="First face-to-face meeting" />
+      </div>
+
+      <div class="container col-md-12 my-md-2">
+        <p>
+          The Nanay’s in IT Program (NITP) is an initiative designed to provide
+          opportunities for mothers and individuals who serve as mother figures,
+          regardless of gender, to enter and begin a career in the field of
+          Information Technology. The program recognizes that being a “nanay” is
+          not defined by gender alone, but by the role of caregiving, guidance,
+          and support within a family or community.
+        </p>
+
+        <p>
+          NITP aims to empower participants through free IT training, skills
+          development, and hands-on projects that contribute to both personal
+          and professional growth. Many of the learners are career shifters,
+          returning members of the workforce, or individuals with limited access
+          to formal IT education. Through this program, they are given the
+          opportunity to acquire new skills and establish a clearer pathway
+          toward sustainable employment.
+        </p>
+
+        <p>
+          The program is supported by Accenture, Philippine Business for Social
+          Progress (PBSP), and the Young Men’s Christian Association (YMCA).
+          These partner organizations collaborate to provide training resources,
+          mentorship, real-world exposure, and holistic support to the learners.
+          Program activities include orientations, site visits, technical
+          training sessions, workshops, and community-building events that
+          strengthen not only technical competencies but also confidence,
+          discipline, and professional values.
+        </p>
+
+        <p>
+          Under NITP, learners are encouraged to explore their interests and
+          develop their chosen IT specialties, such as web development,
+          technical support, data handling, and other foundational IT roles. The
+          program also places strong emphasis on values formation, teamwork, and
+          resilience, which are considered essential for success in the IT
+          industry.
+        </p>
+
+        <p>
+          CareerLaunch PH is a product of the Nanay’s in IT Program and serves
+          as a digital platform that showcases the skills, projects, and
+          learning journeys of the participants. It stands as a reflection of
+          the learners’ dedication and capabilities, while also acting as a
+          bridge between the learners and the organizations that support their
+          growth.
+        </p>
+
+        <p>
+          Overall, the Nanay’s in IT Program is more than a training initiative.
+          It is a community and an opportunity that opens doors to a more
+          inclusive, equitable, and meaningful participation of mothers and
+          mother figures in the Information Technology sector.
+        </p>
+      </div>
+    </div>
+
+    <!-- ----------------------ABOUT ACN-------------------- -->
+    <div class="container aboutNITP row mx-auto">
+      <h1 class="container text-center mb-2">About Accenture</h1>
+      <div class="container col-md-12">
+        <img
+          src="media assets/Reinvent with Accenture.jpg"
+          alt="First face-to-face meeting"
+        />
+      </div>
+
+      <div class="container col-md-12 my-3">
+        <p>
+          Accenture has established a significant presence in the Philippines,
+          where it has been operating for more than 35 years. In the country, it
+          stands as one of the largest and most mature IT and business process
+          services companies, delivering complex technology solutions,
+          consulting engagements, and outsourcing operations to clients both
+          locally and globally.
+        </p>
+
+        <p>
+          The company’s Philippine operations are marked by a large and diverse
+          workforce, with over 85,000 employees supporting clients across
+          industries and functions. Services offered in the Philippines align
+          with Accenture’s global capabilities, spanning strategy and
+          consulting, technology development and implementation, intelligent
+          operations, and digital transformation initiatives. With a clientele
+          that extends across more than 9,000 global organizations, Accenture
+          Philippines plays a crucial role in enabling digital innovation and
+          operational excellence.
+        </p>
+
+        <p>
+          Accenture has also invested in expanding its infrastructure and
+          service delivery capacity within the Philippines. Over the years, the
+          firm has established multiple delivery centers across key regions —
+          including Metro Manila, Cebu, and Ilocos — providing technology,
+          operations, and outsourcing solutions for international business
+          needs. These delivery centers leverage local talent and technological
+          expertise to support global clients, reinforcing the country’s
+          position as a hub for IT-enabled services and innovation.
+        </p>
+
+        <p>
+          Beyond commercial operations, Accenture Philippines actively
+          contributes to social impact and industry development. The company is
+          recognized for its resilience and sustainability efforts, earning
+          awards for effective responses to crises like the COVID-19 pandemic
+          and for environmentally conscious practices. Accenture has also
+          championed initiatives that foster inclusion, diversity, and workforce
+          development, such as apprenticeship programs designed to cultivate a
+          skilled and diverse talent pipeline while advancing economic
+          opportunities within the community.
+        </p>
+
+        <p>
+          The organization’s commitment to ethical standards and positive change
+          is reflected in its corporate governance and business ethics
+          frameworks. By integrating sustainability and responsible practices
+          into client engagements and internal operations, Accenture aims to not
+          only drive business success but also contribute positively to societal
+          and environmental goals.
+        </p>
+      </div>
+    </div>
+
+    <!-- ----------------------ABOUT YMCA-------------------- -->
+    <div class="container aboutNITP row mx-auto">
+      <h1 class="container text-center mb-2">About YMCA</h1>
+      <div class="container col-md-12">
+        <img
+          src="media assets/ymca activity.jpg"
+          alt="First face-to-face meeting"
+        />
+      </div>
+
+      <div class="container col-md-12 my-3">
+        <p>
+          YMCA of Manila is a non-government, non-stock, non-profit, civic,
+          voluntary, educational and ecumenical association supported by
+          voluntary contributions and income derived from its program and assets
+          which shall be actually, directly and exclusively used for the
+          attainment of its objectives.
+        </p>
+
+        <p>
+          The association is intended primarily to serve the welfare of the
+          youth and as such, every opportunity shall be given the youth to
+          participate and assume leadership in the affairs of the association.
+        </p>
+
+        <p>
+          The enduring purposes of the association shall be: To develop well
+          balanced Christian personality, mission in life and usefulness of
+          individuals, as well as to promote unity among Christians and
+          understanding among people of all faiths;
+        </p>
+
+        <p>
+          To promote on equal basis the physical, mental, social and spiritual
+          welfare of the youth and to emphasize reverence to God, social
+          discipline, responsibility for the common good, respect for human
+          dignity and the observance of the Golden Rule.
+        </p>
+      </div>
+    </div>
+
+    <!-- ----------------------ABOUT PBSP-------------------- -->
+    <div class="container aboutNITP row mx-auto">
+      <h1 class="container text-center mb-2">About PBSP</h1>
+      <div class="container col-md-12">
+        <img src="media assets/pbsp 1.jpg" alt="First face-to-face meeting" />
+      </div>
+
+      <div class="container col-md-12 my-3">
+        <p>
+          Established in 1970, PBSP remains a consultant and partner of choice
+          of companies and donors. PBSP scales up impact by adopting the
+          Collective Impact strategy to solve large, complex, systemic problems.
+          PBSP organizes Platforms for Collective Engagements (PLACEs) to ensure
+          alignment and sustainability of initiatives by multiple stakeholders.
+        </p>
+
+        <p>
+          Responding to the changing landscape of CSR, PBSP’s brand of corporate
+          citizenship taps into the core business competencies of companies and
+          promotes inclusive business as a strategy. PBSP also continues to
+          strategically engage companies through social investment, responsible
+          business practices, and philanthropy.
+        </p>
+
+        <p>
+          PBSP creates sustainable solutions to societal problems in its core
+          program areas which are Health, Education, Environment, and Livelihood
+          and Enterprise Development. It also provides off-the-shelf options for
+          engagement of companies and their employees.
+        </p>
+
+        <p>
+          With a proven track record, PBSP provides end-to-end services in
+          development consulting which include project and grants management,
+          events and backroom management.
+        </p>
+      </div>
+    </div>
+
+    <!------- SCROLL TO TOP BUTTON --------->
+    <button id="go-to-top-button" class="btn hidden">Go to Top</button>
+
+    <!---------------- FOOTER ----------------->
+    <footer
+      class="d-flex flex-wrap justify-content-between align-items-center py-3 mx-5 my-4 border-top"
+    >
+      <div class="col-md-4 d-flex align-items-center">
+        <a
+          href="/"
+          class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+          aria-label="Bootstrap"
+        >
+          <img
+            src="media assets/CLP no bg.png"
+            alt="CareerLaunch PH logo"
+            width="50"
+            height="50"
+          />
+        </a>
+        <span class="mb-3 mb-md-0 text-body-secondary">
+          &copy; 2025 CareerLaunch PH
+        </span>
+      </div>
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3">
+          <a class="text-body-secondary" href="#" aria-label="Instagram">
+            <svg class="bi" width="30" height="30" aria-hidden="true">
+              <use xlink:href="#instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="ms-3">
+          <a class="text-body-secondary" href="#" aria-label="Facebook">
+            <svg class="bi" width="24" height="24">
+              <use xlink:href="#facebook"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <!----------- SCRIPTS ------------->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+    <script src="scrollToTop.js"></script>
+  </body>
 </html>
