@@ -1,361 +1,475 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CareerLaunch PH</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>CareerLaunch PH</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
-</head>
-
-<body>
-<!----------------- NAVIGATION BAR ------------------------------->
-      <header data-bs-theme="light">
-        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img src="media assets/CLP no bg.png" width="50" height="50"></a>
-                <button
-                 class="navbar-toggler"
-                 type="button"
-                 data-bs-toggle="collapse"
-                 data-bs-target="#navbarCollapse"
-                 aria-controls="navbarCollapse"
-                 aria-expanded="false"
-                 aria-label="Toggle navigation">
-                 <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="homepage.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="aboutPage.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="learnerPage.html">Learners</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="contactPage.html">Contacts</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+  <body>
+    <!----------------- NAVIGATION BAR ------------------------------->
+    <header data-bs-theme="light">
+      <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"
+            ><img src="media assets/CLP no bg.png" width="50" height="50"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="homepage.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="aboutPage.html"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="learnerPage.html"
+                  >Learners</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="contactPage.html"
+                  >Contacts</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
-    
-    
-<!-------------------------- CAROUSEL -------------------------->
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" >
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="media assets/1.jpg" class="d-block" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="media assets/2.jpg" class="d-block" alt="...">
-    </div>
-    <!-- <div class="carousel-item">
+    <!-------------------------- CAROUSEL -------------------------->
+    <div
+      id="carouselExampleSlidesOnly"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="media assets/1.jpg" class="d-block" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="media assets/2.jpg" class="d-block" alt="..." />
+        </div>
+        <!-- <div class="carousel-item">
       <img src="media assets/3.jpg" class="d-block w-100" alt="...">
     </div> -->
-  </div>
-</div>
+      </div>
+    </div>
 
-<div class="highlight-heading" >
-    <h1 class="text-center my-5">Program Highlights</h1>
-    <hr class="featurette-divider" />
+    <!-------------------------- HEADING -------------------------->
+    <div class="highlight-heading">
+      <h1 class="text-center my-5">Program Highlights</h1>
+      <hr class="featurette-divider" />
+    </div>
 
-</div>
-<!--------------- START THE FEATURETTES ------------------->
- <div class="mx-5 my-5">
-<!----- 1st FEATURETTES ----->
-  <div>
-    <div class="row featurette">
+    <!--------------- START THE FEATURETTES ------------------->
+    <div class="mx-5 my-5">
+      <!----- 1st FEATURETTES ----->
+      <div>
+        <div class="row featurette">
           <div class="col-sm-12 col-md-7 order-md-2">
             <h2 class="featurette-heading fw-normal lh-1">
               Nanay’s in IT Program Batch 5 First Face-to-Face Session
-              <span class="text-body-secondary"><br>September 15, 2025</span>
+              <span class="text-body-secondary"><br />September 15, 2025</span>
             </h2>
-            <p class="lead"><br>
-              A meaningful milestone for Nanay’s in IT Program Batch 5, the first face-to-face session was held on September 15, 2025 at YMCA Manila. It marked the first time the Nanay learners met in person to connect, share stories, and officially begin their IT journey together. The day was filled with learning, inspiration, and a strong sense of community—setting the tone for growth, confidence, and empowerment in tech.
+            <p class="lead">
+              <br />
+              A meaningful milestone for Nanay’s in IT Program Batch 5, the
+              first face-to-face session was held on September 15, 2025 at YMCA
+              Manila. It marked the first time the Nanay learners met in person
+              to connect, share stories, and officially begin their IT journey
+              together. The day was filled with learning, inspiration, and a
+              strong sense of community—setting the tone for growth, confidence,
+              and empowerment in tech.
             </p>
           </div>
           <div class="col-sm-12 col-md-5 order-md-1">
             <img
-                src="media assets/first-face-to-face.jpg"
-                alt="First Face to Face"
-                class="img-fluid mx-auto d-block"
-                width="750"
-                height="750"
+              src="media assets/first-face-to-face.jpg"
+              alt="First Face to Face"
+              class="img-fluid mx-auto d-block"
+              width="750"
+              height="750"
             />
           </div>
         </div>
-  </div>
+      </div>
 
-<!----- 2ND FEATURETTES ----->
-  <div>
-    <hr class="featurette-divider" />
+      <!----- 2ND FEATURETTES ----->
+      <div>
+        <hr class="featurette-divider" />
         <div class="row featurette">
           <div class="col-sm-12 col-md-7">
             <h2 class="featurette-heading fw-normal lh-1">
-              Official Kick-Off of the Nanay’s in IT Program<br>
+              Official Kick-Off of the Nanay’s in IT Program<br />
               <span class="text-body-secondary">September 17, 2025</span>
             </h2>
-            <p class="lead"><br>
-              The Nanay’s in IT Program officially kicked off through an online launch that brought together inspiring leaders and partners from Accenture, PBSP, YMCA, and the NIT Program. The event set the vision and direction of the program, highlighting its mission to empower Nanays through digital skills, career opportunities, and inclusive growth. Participants gained insights, encouragement, and a shared sense of purpose as the program formally began its journey of transforming lives through technology.
+            <p class="lead">
+              <br />
+              The Nanay’s in IT Program officially kicked off through an online
+              launch that brought together inspiring leaders and partners from
+              Accenture, PBSP, YMCA, and the NIT Program. The event set the
+              vision and direction of the program, highlighting its mission to
+              empower Nanays through digital skills, career opportunities, and
+              inclusive growth. Participants gained insights, encouragement, and
+              a shared sense of purpose as the program formally began its
+              journey of transforming lives through technology.
             </p>
           </div>
-            <div class="col-sm-12 col-md-5 order-md-1">
+          <div class="col-sm-12 col-md-5 order-md-1">
             <img
-                src="media assets/KICK OFF.png"
-                alt="First Face to Face"
-                class="img-fluid mx-auto d-block"
-                width="750"
-                height="750"
+              src="media assets/KICK OFF.png"
+              alt="First Face to Face"
+              class="img-fluid mx-auto d-block"
+              width="750"
+              height="750"
             />
           </div>
         </div>
-  </div>
-        
-<!----- 3RD FEATURETTES ----->
-  <div>
-    <hr class="featurette-divider" />
-    <div class="row featurette">
-      <div class="col-sm-12 col-md-7 order-md-2">
-        <h2 class="featurette-heading fw-normal lh-1">
-          Nanay’s in IT Program Batch 1 Visit to GreenPod & Sustainability Hub<br>
-          <span class="text-body-secondary">November 7, 2025</span>
-        </h2>
-        <p class="lead"><br>
-         Learners from Nanay’s in IT Program Batch 1 – Team Steph visited GreenPod and the Sustainability Hub to learn about sustainability, innovation, and how technology supports eco-friendly and community-driven solutions.
-        </p>
       </div>
-      <div class="col-sm-12 col-md-5 order-md-1">
-        <img
-          src="media assets/TEAM STEPH ACN VISIT.png"
-          alt="First Face to Face"
-          class="img-fluid mx-auto d-block"
-          width="750"
-          height="750"    
-        />
-      </div>
-    </div>
-  </div>
 
-<!----- 4th FEATURETTES ----->
-  <div>
-    <hr class="featurette-divider" />
+      <!----- 3RD FEATURETTES ----->
+      <div>
+        <hr class="featurette-divider" />
+        <div class="row featurette">
+          <div class="col-sm-12 col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1">
+              Nanay’s in IT Program Batch 1 Visit to GreenPod & Sustainability
+              Hub<br />
+              <span class="text-body-secondary">November 7, 2025</span>
+            </h2>
+            <p class="lead">
+              <br />
+              Learners from Nanay’s in IT Program Batch 1 – Team Steph visited
+              GreenPod and the Sustainability Hub to learn about sustainability,
+              innovation, and how technology supports eco-friendly and
+              community-driven solutions.
+            </p>
+          </div>
+          <div class="col-sm-12 col-md-5 order-md-1">
+            <img
+              src="media assets/TEAM STEPH ACN VISIT.png"
+              alt="First Face to Face"
+              class="img-fluid mx-auto d-block"
+              width="750"
+              height="750"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!----- 4th FEATURETTES ----->
+      <div>
+        <hr class="featurette-divider" />
         <div class="row featurette">
           <div class="col-sm-12 col-md-7">
             <h2 class="featurette-heading fw-normal lh-1">
-              Nanay’s in IT Program Batch 2 Visit to GreenPod & Sustainability Hub<br>
+              Nanay’s in IT Program Batch 2 Visit to GreenPod & Sustainability
+              Hub<br />
               <span class="text-body-secondary">November 14, 2025</span>
             </h2>
-            <p class="lead"><br>
-              Learners from Nanay’s in IT Program Batch 2 – Team Grace visited GreenPod and the Sustainability Hub to learn about sustainability, innovation, and the role of technology in creating positive environmental impact. The visit inspired the Nanays to connect IT skills with purpose-driven and eco-friendly solutions.
+            <p class="lead">
+              <br />
+              Learners from Nanay’s in IT Program Batch 2 – Team Grace visited
+              GreenPod and the Sustainability Hub to learn about sustainability,
+              innovation, and the role of technology in creating positive
+              environmental impact. The visit inspired the Nanays to connect IT
+              skills with purpose-driven and eco-friendly solutions.
             </p>
           </div>
-            <div class="col-sm-12 col-md-5 order-md-1">
+          <div class="col-sm-12 col-md-5 order-md-1">
             <img
-                src="media assets/TEAM GRACE ACN VISIT.png"
-                alt="First Face to Face"
-                class="img-fluid mx-auto d-block"
-                width="750"
-                height="750"
+              src="media assets/TEAM GRACE ACN VISIT.png"
+              alt="First Face to Face"
+              class="img-fluid mx-auto d-block"
+              width="750"
+              height="750"
             />
           </div>
         </div>
-  </div>
-
-<!----- 5th FEATURETTES ----->
-  <div>
-    <hr class="featurette-divider" />
-    <div class="row featurette">
-      <div class="col-sm-12 col-md-7 order-md-2">
-        <h2 class="featurette-heading fw-normal lh-1">
-          Nanay’s in IT Program Batch 5 Christmas Get-Together<br>
-          <span class="text-body-secondary">November 7, 2025</span>
-        </h2>
-        <p class="lead"><br>
-         The Nanay’s in IT Program Batch 5 came together for a joyful Christmas get-together on December 15, 2025 at YMCA Manila. It was a warm celebration filled with laughter, gratitude, and shared moments, strengthening bonds and celebrating the journey, achievements, and sisterhood of the Nanays in the program.
-        </p>
       </div>
-      <div class="col-sm-12 col-md-5 order-md-1">
-        <img
-          src="media assets/Christmas Party.png"
-          alt="First Face to Face"
-          class="img-fluid mx-auto d-block"
-          width="750"
-          height="750"    
-        />
-      </div>
-    </div>
-  </div>
 
-<!----- 6th FEATURETTES ----->
-  <div>
-    <hr class="featurette-divider" />
+      <!----- 5th FEATURETTES ----->
+      <div>
+        <hr class="featurette-divider" />
+        <div class="row featurette">
+          <div class="col-sm-12 col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1">
+              Nanay’s in IT Program Batch 5 Christmas Get-Together<br />
+              <span class="text-body-secondary">November 7, 2025</span>
+            </h2>
+            <p class="lead">
+              <br />
+              The Nanay’s in IT Program Batch 5 came together for a joyful
+              Christmas get-together on December 15, 2025 at YMCA Manila. It was
+              a warm celebration filled with laughter, gratitude, and shared
+              moments, strengthening bonds and celebrating the journey,
+              achievements, and sisterhood of the Nanays in the program.
+            </p>
+          </div>
+          <div class="col-sm-12 col-md-5 order-md-1">
+            <img
+              src="media assets/Christmas Party.png"
+              alt="First Face to Face"
+              class="img-fluid mx-auto d-block"
+              width="750"
+              height="750"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!----- 6th FEATURETTES ----->
+      <div>
+        <hr class="featurette-divider" />
         <div class="row featurette">
           <div class="col-sm-12 col-md-7">
             <h2 class="featurette-heading fw-normal lh-1">
-              Nanay’s in IT Program Batch 3 Visit to GreenPod & Sustainability Hub<br>
+              Nanay’s in IT Program Batch 3 Visit to GreenPod & Sustainability
+              Hub<br />
               <span class="text-body-secondary">December 17, 2025</span>
             </h2>
-            <p class="lead"><br>
-              Learners from Nanay’s in IT Program Batch 3 – Team Heizel visited GreenPod and the Sustainability Hub to gain insights on sustainability, innovation, and how technology supports environmentally responsible solutions.
+            <p class="lead">
+              <br />
+              Learners from Nanay’s in IT Program Batch 3 – Team Heizel visited
+              GreenPod and the Sustainability Hub to gain insights on
+              sustainability, innovation, and how technology supports
+              environmentally responsible solutions.
             </p>
           </div>
-            <div class="col-sm-12 col-md-5 order-md-1">
+          <div class="col-sm-12 col-md-5 order-md-1">
             <img
-                src="media assets/TEAM HEIZEL ACN VISIT.png"
-                alt="First Face to Face"
-                class="img-fluid mx-auto d-block"
-                width="750"
-                height="750"
+              src="media assets/TEAM HEIZEL ACN VISIT.png"
+              alt="First Face to Face"
+              class="img-fluid mx-auto d-block"
+              width="750"
+              height="750"
             />
           </div>
         </div>
-    <hr class="featurette-divider" />
-  </div>
-</div>
-<!----------------- END THE FEATURETTES ----------------------->
-
-<!-- START OF SHORT DESCRIPTION ABOUT NITP, YMCA, ACCENTURE, PBSP -->
-
-<!------------------ NITP LOGOS ------------------------>
-<div>
-  <div class="my-3">
-    <div class="row justify-content-evenly">
-      <div class="col-3">
-        <img
-          src="media assets/NITP-LOGO.png"
-          alt="First Face to Face"
-          class="img-fluid mx-auto d-block"
-            width="250"
-            height="250"
-        />
-      </div>
-      <div class="col-4 align-self-center">
-        <h2 class="featurette-heading fw-normal lh-1">
-          Nanay's in IT Program (NITP)
-        </h2>
-        <p class="justified-indent">
-          The Nanay’s in IT Program equips Nanays with essential digital skills to help them access better opportunities and support inclusive growth in the Philippines.
-        </p>
+        <hr class="featurette-divider" />
       </div>
     </div>
-  </div>
-<!------------------ ACN LOGOS ------------------------>
-  <div class="my-5">
-    <div class="row justify-content-evenly">
-      <div class="col-3">
-        <img
-          src="media assets/ACN-LOGO.png"
-          alt="First Face to Face"
-          class="img-fluid mx-auto d-block"
-            width="250"
-            height="250"
-        />
-      </div>
-      <div class="col-4 align-self-center">
-        <h2 class="featurette-heading fw-normal lh-1">
-          Accenture
-        </h2>
-        <p class="justified-indent">
-          Accenture supports the Nanay’s in IT Program by providing expertise, mentorship, and resources that help equip Nanays with in-demand digital skills, empowering them to build sustainable careers in technology.
-        </p>
-      </div>
-    </div>
-  </div>
+    <!----------------- END THE FEATURETTES ----------------------->
 
-<!------------------ PBSP LOGOS ------------------------>
-  <div class="my-5">
-    <div class="row justify-content-evenly">
-      <div class="col-3">
-        <img
-          src="media assets/PBSP-LOGO.png"
-          alt="First Face to Face"
-          class="img-fluid mx-auto d-block"
-            width="250"
-            height="250"
-        />
+    <!-- START OF SHORT DESCRIPTION ABOUT NITP, YMCA, ACCENTURE, PBSP -->
+    <div>
+      <!------------------ NITP LOGOS ------------------------>
+      <div class="my-5">
+        <div class="row justify-content-evenly">
+          <div class="col-3">
+            <img
+              src="media assets/NITP-LOGO.png"
+              alt="First Face to Face"
+              class="img-fluid mx-auto d-block"
+              width="250"
+              height="250"
+            />
+          </div>
+          <div class="col-4 align-self-center">
+            <h2 class="featurette-heading fw-normal lh-1">
+              Nanay's in IT Program (NITP)
+            </h2>
+            <p class="justified-indent">
+              The Nanay’s in IT Program equips Nanays with essential digital
+              skills to help them access better opportunities and support
+              inclusive growth in the Philippines.
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="col-4 align-self-center">
-        <h2 class="featurette-heading fw-normal lh-1">
-          Philippines Business for Social Progress (PBSP)
-        </h2>
-        <p class="justified-indent">
-          PBSP plays a key role in the Nanay’s in IT Program by bringing together partners and resources to support skills training, community development, and inclusive opportunities for Nanays in the Philippines.
-        </p>
+      <!------------------ ACN LOGOS ------------------------>
+      <div class="my-5">
+        <div class="row justify-content-evenly">
+          <div class="col-3">
+            <img
+              src="media assets/ACN-LOGO.png"
+              alt="First Face to Face"
+              class="img-fluid mx-auto d-block"
+              width="250"
+              height="250"
+            />
+          </div>
+          <div class="col-4 align-self-center">
+            <h2 class="featurette-heading fw-normal lh-1">Accenture</h2>
+            <p class="justified-indent">
+              Accenture supports the Nanay’s in IT Program by providing
+              expertise, mentorship, and resources that help equip Nanays with
+              in-demand digital skills, empowering them to build sustainable
+              careers in technology.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!------------------ PBSP LOGOS ------------------------>
+      <div class="my-5">
+        <div class="row justify-content-evenly">
+          <div class="col-3">
+            <img
+              src="media assets/PBSP-LOGO.png"
+              alt="First Face to Face"
+              class="img-fluid mx-auto d-block"
+              width="250"
+              height="250"
+            />
+          </div>
+          <div class="col-4 align-self-center">
+            <h2 class="featurette-heading fw-normal lh-1">
+              Philippines Business for Social Progress (PBSP)
+            </h2>
+            <p class="justified-indent">
+              PBSP plays a key role in the Nanay’s in IT Program by bringing
+              together partners and resources to support skills training,
+              community development, and inclusive opportunities for Nanays in
+              the Philippines.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!------------------ YMCA LOGOS ------------------------>
+      <div class="my-5">
+        <div class="row justify-content-evenly">
+          <div class="col-3">
+            <img
+              src="media assets/YMCA-LOGO.png"
+              alt="First Face to Face"
+              class="img-fluid mx-auto d-block"
+              width="250"
+              height="250"
+            />
+          </div>
+          <div class="col-4 align-self-center">
+            <h2 class="featurette-heading fw-normal lh-1">
+              Young Men's Christian Association (YMCA)
+            </h2>
+            <p class="justified-indent">
+              YMCA supports the Nanay’s in IT Program by providing a safe
+              learning space, community support, and programs that help Nanays
+              grow in skills, confidence, and opportunities for a better future.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-<!------------------ YMCA LOGOS ------------------------>
-  <div class="my-5">
-    <div class="row justify-content-evenly">
-      <div class="col-3">
-        <img
-          src="media assets/YMCA-LOGO.png"
-          alt="First Face to Face"
-          class="img-fluid mx-auto d-block"
-            width="250"
-            height="250"
+    <!-- END OF SHORT DESCRIPTION ABOUT NITP, YMCA, ACCENTURE, PBSP -->
+
+    <!-- START OF REVIEW FORM -->
+    <div class="mx-5">
+      <h3 class="mb-4">Send us your review!</h3>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label"
+          >Email address</label
+        >
+        <input
+          type="email"
+          class="form-control"
+          id="exampleFormControlInput1"
+          placeholder="name@example.com"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label"
+          >Create review</label
+        >
+        <textarea
+          class="form-control"
+          id="exampleFormControlTextarea1"
+          rows="3"
+        ></textarea>
+      </div>
+      <button type="button" class="btn btn-primary mb-5">Submit</button>
+    </div>
+    <!-- E OF REVIEW FORM -->
+
+
+    <!------- SCROLL TO TOP BUTTON --------->
+    <button id="go-to-top-button" class="btn hidden">Go to Top</button>
+
+    <!---------------- FOOTER ----------------->
+    <footer
+      class="d-flex flex-wrap justify-content-between align-items-center py-3 mx-5 my-4 border-top"
+    >
+      <div class="col-md-4 d-flex align-items-center">
+        <a
+          href="/"
+          class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+          aria-label="Bootstrap"
+        >
+          <img
+            src="media assets/CLP no bg.png"
+            alt="CareerLaunch PH logo"
+            width="50"
+            height="50"
           />
-      </div>
-      <div class="col-4 align-self-center">
-        <h2 class="featurette-heading fw-normal lh-1">
-          Young Men's Christian Association (YMCA)
-        </h2>
-        <p class="justified-indent">
-          YMCA supports the Nanay’s in IT Program by providing a safe learning space, community support, and programs that help Nanays grow in skills, confidence, and opportunities for a better future.
-        </p>
-      </div>
-    </div>
-  </div>
-  
-</div>
-<!-- END OF SHORT DESCRIPTION ABOUT NITP, YMCA, ACCENTURE, PBSP -->
-
-<!------- SCROLL TO TOP BUTTON --------->
-<button id="go-to-top-button" class="btn hidden">Go to Top</button>
-
-<!---------------- FOOTER ----------------->
-  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mx-5 my-4  border-top">
-    <div class="col-md-4 d-flex align-items-center">
-      <a
-        href="/"
-        class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
-        aria-label="Bootstrap"
-      >
-      <img src="media assets/CLP no bg.png" alt="CareerLaunch PH logo" width="50" height="50">
-      </a>
-      <span class="mb-3 mb-md-0 text-body-secondary">
-        &copy; 2025 CareerLaunch PH
+        </a>
+        <span class="mb-3 mb-md-0 text-body-secondary">
+          &copy; 2025 CareerLaunch PH
         </span>
-    </div>
-    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-      <li class="ms-3">
-        <a class="text-body-secondary" href="#" aria-label="Instagram">
-          <svg class="bi" width="30" height="30" aria-hidden="true">
-            <use xlink:href="#instagram"></use>
-          </svg>
-        </a>
-      </li>
-      <li class="ms-3">
-        <a class="text-body-secondary" href="#" aria-label="Facebook">
-          <svg class="bi" width="24" height="24">
-            <use xlink:href="#facebook"></use>
-          </svg>
-        </a>
-      </li>
-    </ul>
-  </footer>
+      </div>
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3">
+          <a class="text-body-secondary" href="#" aria-label="Instagram">
+            <svg class="bi" width="30" height="30" aria-hidden="true">
+              <use xlink:href="#instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="ms-3">
+          <a class="text-body-secondary" href="#" aria-label="Facebook">
+            <svg class="bi" width="24" height="24">
+              <use xlink:href="#facebook"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-  <script src="index.js"></script>
-  <script src="scrollToTop.js"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+    <script src="scrollToTop.js"></script>
+  </body>
 </html>
