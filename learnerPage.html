@@ -1,388 +1,598 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>CareerLaunch PH</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
-    </head>
-<body>
-<!----------------- NAVIGATION BAR ------------------------------->
-      <header data-bs-theme="light">
-        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img src="media assets/CLP no bg.png" width="50" height="50"></a>
-                <button
-                 class="navbar-toggler"
-                 type="button"
-                 data-bs-toggle="collapse"
-                 data-bs-target="#navbarCollapse"
-                 aria-controls="navbarCollapse"
-                 aria-expanded="false"
-                 aria-label="Toggle navigation">
-                 <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="homepage.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="aboutPage.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="learnerPage.html">Learners</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="contactPage.html">Contacts</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CareerLaunch PH</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!----------------- NAVIGATION BAR ------------------------------->
+    <header data-bs-theme="light">
+      <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"
+            ><img src="media assets/CLP no bg.png" width="50" height="50"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="homepage.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="aboutPage.html"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="learnerPage.html"
+                  >Learners</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="contactPage.html"
+                  >Contacts</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
-   
-<!-------------------------- CAROUSEL -------------------------->
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="media assets/1.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="media assets/2.jpg" class="d-block w-100" alt="...">
-    </div>
-    <!-- <div class="carousel-item">
+
+    <!-------------------------- CAROUSEL -------------------------->
+    <div
+      id="carouselExampleSlidesOnly"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="media assets/1.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="media assets/2.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <!-- <div class="carousel-item">
       <img src="media assets/3.jpg" class="d-block w-100" alt="...">
     </div> -->
-  </div>
-</div>
+      </div>
+    </div>
 
-<h1 class="text-center my-4">Learners Hub</h1>
-<!-- --------------------------learners section----------------------- -->
-     <div class="album py-5 bg-body-tertiary">
-        <div class="container">
-          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-            <!-- -------------------INFINITE-------------------- -->
-            <div class="col">
-        <div class="card shadow-sm">
-          <div class="row mx-auto">
-            <div class="container col-6 my-3">
-             
-              <img class="rounded-circle object-fit-cover" src="media assets/ILT Logo Trans BG (1).png" alt="" width="100" height="100">
-            </div>
-            <div class="col-6 my-auto">
-              <h4>inFinite Loop Thinkers</h4>
-              <span>Batch 5</span>
-            </div>
-          </div>
- 
-          <div class="container bg-body-tertiary my-3 mx-auto">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-              veritatis nam odit delectus culpa repellendus eligendi aliquam
-              atque eos debitis excepturi optio odio facere minima, similique
-              nesciunt, sit nemo? Ut.
-            </p>
-          </div>
- 
-          <img class="card-img-top object-fit-fill" src="media assets/team infinit.jpg" alt="" width="100%" height="225">
-          <div class="card-body">
-            <div class="btn-group my-2">
-              <a href="https://kusinabuddy.onrender.com/" class="btn btn-sm btn-outline-success">Kusina Buddy</a>
-              <button type="button" class="btn btn-sm btn-outline-success">
-                Portfolio
-              </button>
-            </div>
-            <p class="card-text">
-              this section is for project descriptions. Lorem ipsum dolor sit
-              amet, consectetur adipisicing elit. Architecto quo temporibus,
-              fuga dolor accusantium dolorem odio dicta explicabo possimus!
-              Nulla soluta consequuntur sed atque maiores totam explicabo nisi
-              non libero!
-            </p>
-            <div
-              class="d-flex justify-content-between align-items-center"
-            ></div>
-          </div>
-        </div>
-            </div>
-            <!-- -------------------Mariel---------------------- -->
-            <div class="col">
-        <div class="card shadow-sm">
-          <div class="row mx-auto">
-            <div class="container col-6 my-3">
-             
-              <img class="rounded-circle object-fit-cover" src="media assets/Mariel.jpg" alt="" width="100" height="100">
-            </div>
-            <div class="col-6 my-auto">
-              <h4>Marielle A. Lazarte</h4>
-              <span>Batch 5 | ALERM</span>
-            </div>
-          </div>
- 
-          <div class="container bg-body-tertiary my-3 mx-auto">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-              veritatis nam odit delectus culpa repellendus eligendi aliquam
-              atque eos debitis excepturi optio odio facere minima, similique
-              nesciunt, sit nemo? Ut.
-            </p>
-          </div>
- 
-          <img class="card-img-top object-fit-fill" src="media assets/team infinit.jpg" alt="" width="100%" height="225">
-          <div class="card-body">
-            <div class="btn-group my-2">
-              <button type="button" class="btn btn-sm btn-outline-danger">
-                View
-              </button>
-              <button type="button" class="btn btn-sm btn-outline-success">
-                Edit
-              </button>
-            </div>
-            <p class="card-text">
-              this section is for project descriptions. Lorem ipsum dolor sit
-              amet, consectetur adipisicing elit. Architecto quo temporibus,
-              fuga dolor accusantium dolorem odio dicta explicabo possimus!
-              Nulla soluta consequuntur sed atque maiores totam explicabo nisi
-              non libero!
-            </p>
-            <div
-              class="d-flex justify-content-between align-items-center"
-            ></div>
-          </div>
-        </div>
-            </div>
-            <!-- -------------------Rye-------------------------- -->
-            <div class="col">
-        <div class="card shadow-sm">
-          <div class="row mx-auto">
-            <div class="container col-6 my-3">
-             
-              <img class="rounded-circle object-fit-cover" src="media assets/Rye.jpg" alt="" width="100" height="100">
-            </div>
-            <div class="col-6 my-auto">
-              <h4>Ryeana D. Palomar</h4>
-              <span>Batch 5 | ALERM</span>
+    <!-------------------------- HEADING -------------------------->
+    <div class="highlight-heading">
+      <h1 class="text-center my-5">Learners' Hub</h1>
+      <hr class="featurette-divider" />
+    </div>
+
+    <!-- --------------------------learners section----------------------- -->
+    <div class="album py-5 bg-body-tertiary">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <!-- -------------------INFINITE-------------------- -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <div class="row mx-auto">
+                <div class="container col-6 my-3">
+                  <img
+                    class="rounded-circle object-fit-cover"
+                    src="media assets/ILT Logo Trans BG (1).png"
+                    alt=""
+                    width="100"
+                    height="100"
+                  />
+                </div>
+                <div class="col-6 my-auto">
+                  <h4>inFinite Loop Thinkers</h4>
+                  <span>Batch 5</span>
+                </div>
+              </div>
+
+              <div class="container bg-body-tertiary my-3 mx-auto">
+                <div class="scrollable-text">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Officiis veritatis nam odit delectus culpa repellendus
+                    eligendi aliquam atque eos debitis excepturi optio odio
+                    facere minima, similique nesciunt, sit nemo? Ut.
+                  </p>
+                </div>
+              </div>
+
+              <img
+                class="card-img-top object-fit-fill"
+                src="media assets/team infinit.jpg"
+                alt=""
+                width="100%"
+                height="225"
+              />
+              <div class="card-body">
+                <div class="btn-group my-2">
+                  <a
+                    href="https://kusinabuddy.onrender.com/"
+                    class="btn btn-sm btn-outline-success"
+                    >Kusina Buddy</a
+                  >
+                  <button type="button" class="btn btn-sm btn-outline-success">
+                    Portfolio
+                  </button>
+                </div>
+                <div class="scrollable-text">
+                  <p class="card-text">
+                    Kusina Buddy was created to make everyday meal planning
+                    easier for everyone. We know how stressful it can be to
+                    think about what to cook, especially when time and
+                    ingredients are limited. That’s why we built an AI-powered
+                    tool that helps you generate recipes based on what you
+                    already have, plan meals for the week, and stay organized
+                    with built-in tools like a calculator and notepad.
+                  </p>
+                  <p>
+                    Behind this project is Infinite Loop Thinkers, a group of
+                    NIT Batch 5 learners. While we come from different skill
+                    levels and backgrounds, we share a common goal: to learn,
+                    grow, and create practical, user-friendly tech solutions.
+                    Through the program, we gained skills in Python and web
+                    technologies, allowing us to combine creativity and
+                    technology to solve real problems in simple, meaningful
+                    ways.
+                  </p>
+                </div>
+                <div
+                  class="d-flex justify-content-between align-items-center"
+                ></div>
+              </div>
             </div>
           </div>
- 
-          <div class="container bg-body-tertiary my-3 mx-auto">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-              veritatis nam odit delectus culpa repellendus eligendi aliquam
-              atque eos debitis excepturi optio odio facere minima, similique
-              nesciunt, sit nemo? Ut.
-            </p>
-          </div>
- 
-          <img class="card-img-top object-fit-fill" src="media assets/team infinit.jpg" alt="" width="100%" height="225">
-          <div class="card-body">
-            <div class="btn-group my-2">
-              <button type="button" class="btn btn-sm btn-outline-danger">
-                View
-              </button>
-              <button type="button" class="btn btn-sm btn-outline-success">
-                Edit
-              </button>
-            </div>
-            <p class="card-text">
-              this section is for project descriptions. Lorem ipsum dolor sit
-              amet, consectetur adipisicing elit. Architecto quo temporibus,
-              fuga dolor accusantium dolorem odio dicta explicabo possimus!
-              Nulla soluta consequuntur sed atque maiores totam explicabo nisi
-              non libero!
-            </p>
-            <div
-              class="d-flex justify-content-between align-items-center"
-            ></div>
-          </div>
-        </div>
-            </div>
-            <!-- -------------------Al-------------------------- -->
-            <div class="col">
-        <div class="card shadow-sm">
-          <div class="row mx-auto">
-            <div class="container col-6 my-3">
-             
-              <img class="rounded-circle object-fit-cover" src="media assets/Al Jun Mado.png" alt="" width="100" height="100">
-            </div>
-            <div class="col-6 my-auto">
-              <h4>Al Jun F. Mado</h4>
-              <span>Batch 5 | ALERM</span>
-            </div>
-          </div>
- 
-          <div class="container bg-body-tertiary my-3 mx-auto">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-              veritatis nam odit delectus culpa repellendus eligendi aliquam
-              atque eos debitis excepturi optio odio facere minima, similique
-              nesciunt, sit nemo? Ut.
-            </p>
-          </div>
- 
-          <img class="card-img-top object-fit-fill" src="media assets/team infinit.jpg" alt="" width="100%" height="225">
-          <div class="card-body">
-            <div class="btn-group my-2">
-              <button type="button" class="btn btn-sm btn-outline-danger">
-                View
-              </button>
-              <button type="button" class="btn btn-sm btn-outline-success">
-                Edit
-              </button>
-            </div>
-            <p class="card-text">
-              this section is for project descriptions. Lorem ipsum dolor sit
-              amet, consectetur adipisicing elit. Architecto quo temporibus,
-              fuga dolor accusantium dolorem odio dicta explicabo possimus!
-              Nulla soluta consequuntur sed atque maiores totam explicabo nisi
-              non libero!
-            </p>
-            <div
-              class="d-flex justify-content-between align-items-center"
-            ></div>
-          </div>
-        </div>
-            </div>
-            <!-- -------------------Eden------------------------- -->
-            <div class="col">
-        <div class="card shadow-sm">
-          <div class="row mx-auto">
-            <div class="container col-6 my-3">
-             
-              <img class="rounded-circle object-fit-cover" src="media assets/Eden.jpg" alt="" width="100" height="100">
-            </div>
-            <div class="col-6 my-auto">
-              <h4>Eden Chris C. Buhay</h4>
-              <span>Batch 5 | ALERM</span>
+          <!-- -------------------Mariel---------------------- -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <div class="row mx-auto">
+                <div class="container col-6 my-3">
+                  <img
+                    class="rounded-circle object-fit-cover"
+                    src="media assets/Mariel.jpg"
+                    alt=""
+                    width="100"
+                    height="100"
+                  />
+                </div>
+                <div class="col-6 my-auto">
+                  <h4>Marielle A. Lazarte</h4>
+                  <span>Batch 5 | ALERM</span>
+                </div>
+              </div>
+
+              <div class="container bg-body-tertiary my-3 mx-auto">
+                <div class="scrollable-text">
+                  <p>
+                    I am a BS Computer Science graduate currently managing
+                    websites while working in the real estate industry. I am
+                    passionate about technology and committed to continuing my
+                    growth and contributions in the IT industry.
+                  </p>
+                </div>
+              </div>
+
+              <img
+                class="card-img-top object-fit-fill"
+                src="media assets/mmysql.png"
+                alt=""
+                width="100%"
+                height="225"
+              />
+              <div class="card-body">
+                <div class="btn-group my-2">
+                  <button type="button" class="btn btn-sm btn-outline-danger">
+                    View Project
+                  </button>
+                  <button type="button" class="btn btn-sm btn-outline-success">
+                    Portfolio
+                  </button>
+                </div>
+                <div class="scrollable-text">
+                  <p class="card-text">
+                    An Employee Records Database serves as a centralized digital
+                    directory for managing a company's workforce information.
+                    The system organizes essential personal data, such as legal
+                    names, dates of birth, and contact information, into
+                    structured tables to ensure data integrity. It specifically
+                    tracks professional details like job titles, department
+                    assignments, and reporting structures through relational
+                    links between employees and their respective teams. Beyond
+                    basic storage, the database allows administrators to perform
+                    efficient searches, update contact details in real-time, and
+                    generate departmental rosters. This project is an ideal
+                    starting point for learning MySQL fundamentals, as it
+                    focuses on core concepts like primary keys, foreign keys,
+                    and basic CRUD operations.
+                  </p>
+                </div>
+                <div
+                  class="d-flex justify-content-between align-items-center"
+                ></div>
+              </div>
             </div>
           </div>
- 
-          <div class="container bg-body-tertiary my-3 mx-auto">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-              veritatis nam odit delectus culpa repellendus eligendi aliquam
-              atque eos debitis excepturi optio odio facere minima, similique
-              nesciunt, sit nemo? Ut.
-            </p>
-          </div>
- 
-          <img class="card-img-top object-fit-fill" src="media assets/team infinit.jpg" alt="" width="100%" height="225">
-          <div class="card-body">
-            <div class="btn-group my-2">
-              <button type="button" class="btn btn-sm btn-outline-danger">
-                View
-              </button>
-              <button type="button" class="btn btn-sm btn-outline-success">
-                Edit
-              </button>
+          <!-- -------------------Rye-------------------------- -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <div class="row mx-auto">
+                <div class="container col-6 my-3">
+                  <img
+                    class="rounded-circle object-fit-cover"
+                    src="media assets/Rye.jpg"
+                    alt=""
+                    width="100"
+                    height="100"
+                  />
+                </div>
+                <div class="col-6 my-auto">
+                  <h4>Ryeana D. Palomar</h4>
+                  <span>Batch 5 | ALERM</span>
+                </div>
+              </div>
+
+              <div class="container bg-body-tertiary my-3 mx-auto">
+                <div class="scrollable-text">
+                  <p>
+                    I am a freelance Technical Virtual Assistant with over six
+                    years of experience supporting SaaS platforms and digital
+                    tools. I specialize in technical troubleshooting, system
+                    support, and process optimization, helping businesses
+                    resolve issues efficiently and improve daily operations
+                    through clear, reliable solutions.
+                  </p>
+                </div>
+              </div>
+
+              <img
+                class="card-img-top object-fit-fill"
+                src="media assets/cybersecurity logo.jpg"
+                alt=""
+                width="100%"
+                height="225"
+              />
+              <div class="card-body">
+                <div class="btn-group my-2">
+                  <button type="button" class="btn btn-sm btn-outline-danger">
+                    View Project
+                  </button>
+                  <button type="button" class="btn btn-sm btn-outline-success">
+                    Portfolio
+                  </button>
+                </div>
+                <div class="scrollable-text">
+                  <p class="card-text">
+                    A Phishing Simulation Platform is a proactive cybersecurity
+                    tool designed to assess and improve a workforce’s ability to
+                    recognize social engineering threats in a safe, controlled
+                    environment. The platform generates realistic mock
+                    emails—often mimicking trusted brands or internal
+                    departments—to test whether employees click suspicious links
+                    or download potentially malicious attachments. When a user
+                    "fails" by interacting with a simulation, the system
+                    provides immediate, contextual feedback through educational
+                    landing pages that highlight the specific red flags they
+                    missed. Beyond simple testing, these platforms track
+                    critical metrics such as reporting rates and
+                    "time-to-report," allowing security teams to identify
+                    high-risk departments and measure the growth of the
+                    organization's "human firewall".
+                  </p>
+                </div>
+                <div
+                  class="d-flex justify-content-between align-items-center"
+                ></div>
+              </div>
             </div>
-            <p class="card-text">
-              this section is for project descriptions. Lorem ipsum dolor sit
-              amet, consectetur adipisicing elit. Architecto quo temporibus,
-              fuga dolor accusantium dolorem odio dicta explicabo possimus!
-              Nulla soluta consequuntur sed atque maiores totam explicabo nisi
-              non libero!
-            </p>
-            <div
-              class="d-flex justify-content-between align-items-center"
-            ></div>
           </div>
-        </div>
-            </div>
-            <!-- -------------------Liezel------------------------- -->
-            <div class="col">
-        <div class="card shadow-sm">
-          <div class="row mx-auto">
-            <div class="container col-6 my-3">
-             
-              <img class="rounded-circle object-fit-cover" src="media assets/Liezel.jpg" alt="" width="100" height="100">
-            </div>
-            <div class="col-6 my-auto">
-              <h4>Liezel C. Bacalso</h4>
-              <span>Batch 5 | ALERM</span>
+          <!-- -------------------Al-------------------------- -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <div class="row mx-auto">
+                <div class="container col-6 my-3">
+                  <img
+                    class="rounded-circle object-fit-cover"
+                    src="media assets/Al Jun Mado.png"
+                    alt=""
+                    width="100"
+                    height="100"
+                  />
+                </div>
+                <div class="col-6 my-auto">
+                  <h4>Al Jun F. Mado</h4>
+                  <span>Batch 5 | ALERM</span>
+                </div>
+              </div>
+
+              <div class="container bg-body-tertiary my-3 mx-auto">
+                <div class="scrollable-text">
+                  <p>
+                    A Virtual Assistant and aspiring IT Developer who enjoys
+                    learning new technologies and sharpening problem-solving
+                    skills. Committed to personal growth, adaptability, and
+                    turning ideas into functional solutions through consistent
+                    learning and hands-on experience.
+                  </p>
+                </div>
+              </div>
+
+              <img
+                class="card-img-top object-fit-fill"
+                src="media assets/Python-logo-1024x576.png"
+                alt=""
+                width="100%"
+                height="225"
+              />
+              <div class="card-body">
+                <div class="btn-group my-2">
+                  <button type="button" class="btn btn-sm btn-outline-danger">
+                    View Project
+                  </button>
+                  <button type="button" class="btn btn-sm btn-outline-success">
+                    Portfolio
+                  </button>
+                </div>
+                <div class="scrollable-text">
+                  <p class="card-text">
+                    A Password Strength Checker is a practical security tool
+                    that evaluates the robustness of user credentials against
+                    common hacking techniques like brute-force and dictionary
+                    attacks. The application utilizes custom logic or libraries
+                    like zxcvbn to calculate information entropy, providing a
+                    mathematical representation of how difficult a password is
+                    to guess. It systematically scans for essential complexity
+                    requirements, including a mix of uppercase letters, numbers,
+                    symbols, and a minimum character length. Beyond simple
+                    pattern matching, the tool can check passwords against
+                    databases of commonly breached credentials to warn users if
+                    their chosen secret is already compromised. The final output
+                    is typically a dynamic visual score or "strength meter" that
+                    offers real-time suggestions on how to improve the
+                    password’s overall security.
+                  </p>
+                </div>
+                <div
+                  class="d-flex justify-content-between align-items-center"
+                ></div>
+              </div>
             </div>
           </div>
- 
-          <div class="container bg-body-tertiary my-3 mx-auto">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-              veritatis nam odit delectus culpa repellendus eligendi aliquam
-              atque eos debitis excepturi optio odio facere minima, similique
-              nesciunt, sit nemo? Ut.
-            </p>
-          </div>
- 
-          <img class="card-img-top object-fit-fill" src="media assets/team infinit.jpg" alt="" width="100%" height="225">
-          <div class="card-body">
-            <div class="btn-group my-2">
-              <button type="button" class="btn btn-sm btn-outline-danger">
-                View
-              </button>
-              <button type="button" class="btn btn-sm btn-outline-success">
-                Edit
-              </button>
+          <!-- -------------------Eden------------------------- -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <div class="row mx-auto">
+                <div class="container col-6 my-3">
+                  <img
+                    class="rounded-circle object-fit-cover"
+                    src="media assets/Eden.jpg"
+                    alt=""
+                    width="100"
+                    height="100"
+                  />
+                </div>
+                <div class="col-6 my-auto">
+                  <h4>Eden Chris C. Buhay</h4>
+                  <span>Batch 5 | ALERM</span>
+                </div>
+              </div>
+
+              <div class="container bg-body-tertiary my-3 mx-auto">
+                <div class="scrollable-text">
+                  <p>
+                    I am an aspiring IT professional eager to begin my career as
+                    an IT staff. My goal is to continuously develop my skills,
+                    expand my knowledge, and explore emerging technologies. I
+                    thrive in collaborative environments, value teamwork, and
+                    believe that listening to others is key to growth. With a
+                    strong passion for learning, I am committed to building a
+                    solid foundation in IT and contributing meaningfully to any
+                    organization I join.
+                  </p>
+                </div>
+              </div>
+
+              <img
+                class="card-img-top object-fit-fill"
+                src="media assets/bi logo.png"
+                alt=""
+                width="100%"
+                height="225"
+              />
+              <div class="card-body">
+                <div class="btn-group my-2">
+                  <button type="button" class="btn btn-sm btn-outline-danger">
+                    View Project
+                  </button>
+                  <button type="button" class="btn btn-sm btn-outline-success">
+                    Portfolio
+                  </button>
+                </div>
+                <div class="scrollable-text">
+                  <p class="card-text">
+                    A Sales Performance Dashboard provides a dynamic, visual
+                    overview of key sales metrics across various business
+                    dimensions, such as region, product category, and time
+                    period. Utilizing datasets like the "Sample Superstore," the
+                    project involves cleaning and modeling data within Power
+                    Query and Power BI Desktop to create a star schema for
+                    efficient analysis. The dashboard uses interactive
+                    visualizations like bar charts, line graphs, and slicers to
+                    highlight revenue trends over time and compare profit
+                    margins across different product lines. Key Performance
+                    Indicators (KPIs) are prominently displayed using the "new
+                    card" visual to quickly show current total sales, profit,
+                    and year-over-year growth. This project is a foundational
+                    exercise in business intelligence, demonstrating how to
+                    transform raw data into actionable insights for strategic
+                    decision-making.
+                  </p>
+                </div>
+                <div
+                  class="d-flex justify-content-between align-items-center"
+                ></div>
+              </div>
             </div>
-            <p class="card-text">
-              this section is for project descriptions. Lorem ipsum dolor sit
-              amet, consectetur adipisicing elit. Architecto quo temporibus,
-              fuga dolor accusantium dolorem odio dicta explicabo possimus!
-              Nulla soluta consequuntur sed atque maiores totam explicabo nisi
-              non libero!
-            </p>
-            <div
-              class="d-flex justify-content-between align-items-center"
-            ></div>
           </div>
-        </div>
+          <!-- -------------------Liezel------------------------- -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <div class="row mx-auto">
+                <div class="container col-6 my-3">
+                  <img
+                    class="rounded-circle object-fit-cover"
+                    src="media assets/Liezel.jpg"
+                    alt=""
+                    width="100"
+                    height="100"
+                  />
+                </div>
+                <div class="col-6 my-auto">
+                  <h4>Liezel C. Bacalso</h4>
+                  <span>Batch 5 | ALERM</span>
+                </div>
+              </div>
+
+              <div class="container bg-body-tertiary my-3 mx-auto">
+                <div class="scrollable-text">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Officiis veritatis nam odit delectus culpa repellendus
+                    eligendi aliquam atque eos debitis excepturi optio odio
+                    facere minima, similique nesciunt, sit nemo? Ut.
+                  </p>
+                </div>
+              </div>
+
+              <img
+                class="card-img-top object-fit-fill"
+                src="media assets/ui-ux logo.jpg"
+                alt=""
+                width="100%"
+                height="225"
+              />
+              <div class="card-body">
+                <div class="btn-group my-2">
+                  <button type="button" class="btn btn-sm btn-outline-danger">
+                    View Project
+                  </button>
+                  <button type="button" class="btn btn-sm btn-outline-success">
+                    Portfolio
+                  </button>
+                </div>
+                <div class="scrollable-text">
+                  <p class="card-text">
+                    A Minimalist E-commerce Landing Page project centers on
+                    creating a clean, visually uncluttered design to maximize
+                    sales conversions for a sustainable fashion brand. By
+                    leveraging abundant white space and a limited color palette,
+                    the design guides the user's eye directly to key products
+                    and the primary call-to-action (CTA). A crucial part of the
+                    project involves prioritizing mobile responsiveness,
+                    ensuring a seamless and efficient shopping experience across
+                    all device sizes. The design process emphasizes strong
+                    visual hierarchy, clear typography, and minimal distractions
+                    to streamline the user journey from initial interest to
+                    purchase. This project is a foundational exercise in
+                    persuasive design principles, accessibility, and modern
+                    front-end UI patterns.
+                  </p>
+                </div>
+                <div
+                  class="d-flex justify-content-between align-items-center"
+                ></div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-
-
-
-<!------- SCROLL TO TOP BUTTON --------->
-<button id="go-to-top-button" class="btn hidden">Go to Top</button>
-
-<!---------------- FOOTER ----------------->
-  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mx-5 my-4  border-top">
-    <div class="col-md-4 d-flex align-items-center">
-      <a
-        href="/"
-        class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
-        aria-label="Bootstrap"
-      >
-      <img src="media assets/CLP no bg.png" alt="CareerLaunch PH logo" width="50" height="50">
-      </a>
-      <span class="mb-3 mb-md-0 text-body-secondary">
-        &copy; 2025 CareerLaunch PH
-        </span>
     </div>
-    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-      <li class="ms-3">
-        <a class="text-body-secondary" href="#" aria-label="Instagram">
-          <svg class="bi" width="30" height="30" aria-hidden="true">
-            <use xlink:href="#instagram"></use>
-          </svg>
-        </a>
-      </li>
-      <li class="ms-3">
-        <a class="text-body-secondary" href="#" aria-label="Facebook">
-          <svg class="bi" width="24" height="24">
-            <use xlink:href="#facebook"></use>
-          </svg>
-        </a>
-      </li>
-    </ul>
-  </footer>
 
-<!----------- SCRIPTS ------------->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-<script src="index.js"></script>
-<script src="scrollToTop.js"></script>
-    
-</body>
+    <!------- SCROLL TO TOP BUTTON --------->
+    <button id="go-to-top-button" class="btn hidden">Go to Top</button>
+
+    <!---------------- FOOTER ----------------->
+    <footer
+      class="d-flex flex-wrap justify-content-between align-items-center py-3 mx-5 my-4 border-top"
+    >
+      <div class="col-md-4 d-flex align-items-center">
+        <a
+          href="/"
+          class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+          aria-label="Bootstrap"
+        >
+          <img
+            src="media assets/CLP no bg.png"
+            alt="CareerLaunch PH logo"
+            width="50"
+            height="50"
+          />
+        </a>
+        <span class="mb-3 mb-md-0 text-body-secondary">
+          &copy; 2025 CareerLaunch PH
+        </span>
+      </div>
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3">
+          <a class="text-body-secondary" href="#" aria-label="Instagram">
+            <svg class="bi" width="30" height="30" aria-hidden="true">
+              <use xlink:href="#instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="ms-3">
+          <a class="text-body-secondary" href="#" aria-label="Facebook">
+            <svg class="bi" width="24" height="24">
+              <use xlink:href="#facebook"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <!----------- SCRIPTS ------------->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+    <script src="scrollToTop.js"></script>
+  </body>
 </html>

@@ -114,10 +114,39 @@
     font-size: 24px;
 }
 
+
 .btn-primary {
     background-color: #3c6ca8;
     box-shadow: 5px 2px 4px rgba(0, 0, 0, 0.3);
 }
+
+.container-review{
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    font-family: Roboto, sans-serif;
+    /* height: 98vh; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  */
+}
+
+input, textarea {
+      width: 100%;
+      margin-top: 10px;
+      padding: 10px;
+}
+.feedback-item {
+      border: 1px solid #ddd;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 5px;
+}
+
+
 
 /* ------------- END OF HOMEPAGE -------- */
 
@@ -153,3 +182,28 @@
 
 
 /* -------------ABOUT PAGE CLOSING--------------- */
+
+/* ------------------LEARNER PAGE STYLES ---------------*/
+
+.scrollable-text{
+  max-height: 150px;      /* adjust height */
+  overflow-y: auto;       /* vertical scrollbar when needed */
+  overflow-x: hidden;
+  padding: 0.5rem;
+  background: #fff;
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 4px;
+}
+
+
+/* -------------END OF LEARNER PAGE STYLES ---------------*/
+
+
+
+
+
+
+
+
+
+

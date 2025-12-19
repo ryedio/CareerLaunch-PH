@@ -235,7 +235,7 @@
           <div class="col-sm-12 col-md-7 order-md-2">
             <h2 class="featurette-heading fw-normal lh-1">
               Nanay’s in IT Program Batch 5 Christmas Get-Together<br />
-              <span class="text-body-secondary">November 7, 2025</span>
+              <span class="text-body-secondary">December 15, 2025</span>
             </h2>
             <p class="lead">
               <br />
@@ -393,34 +393,41 @@
     </div>
     <!-- END OF SHORT DESCRIPTION ABOUT NITP, YMCA, ACCENTURE, PBSP -->
 
-    <!-- START OF REVIEW FORM -->
-    <div class="mx-5">
-      <h3 class="mb-4">Send us your review!</h3>
-      <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label"
-          >Email address</label
-        >
-        <input
-          type="email"
-          class="form-control"
-          id="exampleFormControlInput1"
-          placeholder="name@example.com"
-        />
+    <!-- START OF REVIEW BOARD HEADING -->
+    <div>
+      <div class="highlight-heading">
+        <div class="text-center">
+          <h2>Learners’ Feedback About the Program</h2>
+        </div>
       </div>
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label"
-          >Create review</label
-        >
-        <textarea
-          class="form-control"
-          id="exampleFormControlTextarea1"
-          rows="3"
-        ></textarea>
+      <div class="container-review my-5">
+        <div class="form-control">
+          <!-- Feedback Display -->
+          <h3 class="featurette-heading">Feedback List</h3>
+          <div id="feedbackList">
+            <!-- Feedback entries will be added here dynamically -->
+          </div>
+        </div>
       </div>
-      <button type="button" class="btn btn-primary mb-5">Submit</button>
-    </div>
-    <!-- E OF REVIEW FORM -->
+      <div class="container-review my-5">
+        <div class="form-control">
+          <!-- Feedback Form -->
+          <h3 class="featurette-heading mt-4">Submit Your Feedback</h3>
+          <span class="text-body-secondary"
+            >We value your input. Please share your feedback on the program.
+            <br />
+            For previous learners and instructors.</span
+          >
+          <input type="text" id="name" placeholder="Your name" />
+          <textarea id="message" placeholder="Your feedback"></textarea>
+          <button onclick="addFeedback()" class="btn btn-primary">
+            Submit Feedback
+          </button>
+        </div>
+      </div>
+      </div>
 
+    <!-- END OF REVIEW FORM -->
 
     <!------- SCROLL TO TOP BUTTON --------->
     <button id="go-to-top-button" class="btn hidden">Go to Top</button>
@@ -471,5 +478,6 @@
     ></script>
     <script src="index.js"></script>
     <script src="scrollToTop.js"></script>
+    <script src="scriptReview.js"></script>
   </body>
 </html>
